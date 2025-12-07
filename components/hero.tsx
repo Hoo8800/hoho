@@ -36,7 +36,7 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
+    greeting: "안녕하세요",
     name: "박정후",
     title: "단국대 학생입니다",
     description: "아직은 배울 것이 많은 초보자이지만, 누구보다 진지하게 성장하고 있습니다.",
