@@ -99,12 +99,12 @@ export function About() {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    experienceCards: [{"icon":"graduation","title":"단국대학교 도시계획부동산학부","period":"2024~","description":"설명을 입력하세요"}],
+    skills: [{"icon":"rocket","title":"책임감 기반 실행력","description":"맡은 업무를 끝까지 수행하는 태도와 기한 준수 능력"},{"icon":"edit","title":"문서 작성 능력","description":"정확하고 명확한 글로 정보를 전달할 수 있는 능력"}],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
+    story: ["안녕하세요. 현재 대학교 1학년에 재학 중이며, 전공 기초를 탄탄하게 다지는 데 집중하고 있습니다. 아직은 특별한 경험이나 성과보다 배움의 과정이 더 많은 시기지만, 그만큼 기본을 확실히 익히기 위해 꾸준히 노력해 왔습니다.","전공 수업과 과제를 성실히 수행하며 기초 이해도를 높였고, 부족한 부분은 스스로 찾아 공부하며 학업 기반을 다지고 있습니다. 앞으로는 전공 역량을 더욱 확장하기 위해 다양한 프로젝트와 실습, 외부 활동에도 적극적으로 참여할 계획입니다.","아직 보여드릴 스펙은 많지 않지만, 배우고 성장하려는 태도만큼은 누구보다 자신 있습니다. 작은 기회라도 최선을 다해 성장의 발판으로 삼고 싶습니다.\n"],
     storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    hobbies: ["🎵 음악 감상","✍️ 글쓰기"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)
